@@ -15,7 +15,7 @@ To begin, we start with a one dimensional example of a ball being thrown upwards
 
 The physical law that the ball has to adhere to is the gravitational forces, as shown in the equation.
 
-<img src="[https://camo.githubusercontent.com/..." data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.10.46%20PM.png)" width="400" height="100" />
+<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.10.46%20PM.png" width="400" height="100" />
 
 This equation is simple, non-linear and one dimensional. It assumes that a body in free-fall is subjected to a gravitational acceleration of 10m/s2.
 
