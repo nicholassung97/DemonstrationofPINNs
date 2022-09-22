@@ -8,7 +8,7 @@ Benefits:
 2. Ensures that prediction is physically possible
 3. Reduces the amount of data required for training
 
-# Kinematics Example
+# One Dimensional Kinematics Example
 
 In this repository, a simple kinematics problem is used to demonstrate the benefits of PINNs. 
 To begin, we start with a one dimensional example of a ball being thrown upwards.
@@ -32,7 +32,7 @@ Given an input (denoted t), the physics-based machine learning model can be used
 
 The aim is to infer the value of the entire displacement solution between t=0 and t=10 using the kinematicsequation. A shallow neural network with only one hidden layer that has20 neurons,and a hyperbolic tangent activation function was used. The shallow neural network was chosen due to the anticipated simplicity of the problem.Since the total training data is relatively small, the loss function is optimised using L-BFGS optimiser. It is a quasi-Newton, full-batch gradient-based optimisation algorithm. This means that in each iteration, all the data is used for training. 
 
-The notesbooks can be accessed here.
+The notebooks can be accessed here.
 
 **Normal Neural Network**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/1D_Kinematics_without_physics_equation_final.ipynb)
@@ -68,3 +68,14 @@ To sum up the advantages of physics-based machine learning are​
 - It requires less training data​
 
 - It captures the trend beyond the range of the training and such that the predictions made are physically consistent​
+
+# Two Dimensional Kinematics Example
+
+The comparison was further done for a two dimensional kinematics example and the outcomes can be viewed in these notebook.
+
+
+**Normal Neural Network**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/2D_Kinematics_without_physics_equation_final.ipynb)
+
+**Physics Informed Neural Network**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/2D_Kinematics_with_physics_equation_final.ipynb)
