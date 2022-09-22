@@ -33,7 +33,12 @@ Given an input (denoted t), the physics-based machine learning model can be used
 The aim is to infer the value of the entire displacement solution between t=0 and t=10 using the kinematicsequation. A shallow neural network with only one hidden layer that has20 neurons,and a hyperbolic tangent activation function was used. The shallow neural network was chosen due to the anticipated simplicity of the problem.Since the total training data is relatively small, the loss function is optimised using L-BFGS optimiser. It is a quasi-Newton, full-batch gradient-based optimisation algorithm. This means that in each iteration, all the data is used for training. 
 
 The notesbooks can be accessed here.
+
+Normal Neural Network
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/1D_Kinematics_without_physics_equation_final.ipynb)
+
+Physics Informed Neural Network
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/1D_Kinematics_with_physics_equation_final.ipynb)
 
 # Results
 When training the physics-based machine learning model, we used two labelled data sets and one PDE for training as previously shown.​
