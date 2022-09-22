@@ -53,7 +53,7 @@ To take things further, we took 50 test data from 10 seconds to 15 seconds which
 
 What we observed is that the physics-based machine learning model was able to capture the physical trends of beyond the training data so that the predictions were physically consistent​
 
-<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.38.12%20PM.png" width="500" height="300" />
+<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.38.41%20PM.png" width="500" height="300" />
 
 To sum up the advantages of physics-based machine learning are​
 
