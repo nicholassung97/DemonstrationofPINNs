@@ -41,7 +41,7 @@ To compared how effective physics-based machine learning is compared a normal ne
 
 In this neural network, we varied the number of labelled training data to see how it affects the test error. We found that to achieve the same test error as the physics-based machine learning model, we had to run 150 training data sets through the normal neural network. In terms of predictions, we can observe their similarity.​
 
-<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.37.55%20PM.png" width="600" height="300" />
+<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.37.55%20PM.png" width="500" height="300" />
 
 
 Essentially, this shows is that unlike the normal neural network, physics based machine learning requires much less training data​
