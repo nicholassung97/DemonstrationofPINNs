@@ -23,12 +23,12 @@ The initial conditions that have bee arbitrarily set are at t=0 and t=10, the di
 
 Based on knowledge of the partial differential equation the system has to adhere to, and the initial conditions of the system, the loss function can be defined to be:
 
-<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.20.15%20PM.png" width="400" height="30" />
+<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.20.15%20PM.png" width="500" height="300" />
 
 Given an input (denoted t), the physics-based machine learning model can be used to predict an output(denotedas 𝑥̂), as shown in the figure below.To train the model, the loss function includes the 2 datasets at the initial condition and 50 random unlabelled training data (between t=0 and t=10) that will serve as collocation points to run through the PDE. 
 
 
-<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.20.32%20PM.png" width="400" height="30" />
+<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.20.32%20PM.png" width="400" height="300" />
 
 The aim is to infer the value of the entire displacement solution between t=0 and t=10 using the kinematicsequation. A shallow neural network with only one hidden layer that has20 neurons,and a hyperbolic tangent activation function was used. The shallow neural network was chosen due to the anticipated simplicity of the problem.Since the total training data is relatively small, the loss function is optimised using L-BFGS optimiser. It is a quasi-Newton, full-batch gradient-based optimisation algorithm. This means that in each iteration, all the data is used for training. 
 
