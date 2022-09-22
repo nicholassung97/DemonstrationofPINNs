@@ -11,3 +11,9 @@ Benefits:
 In this repository, a simple kinematics problem is used to demonstrate the benefits of PINNs. 
 To begin, we start with a one dimensional example of a ball being thrown upwards.
 
+The physical law that the ball has to adhere to is the gravitational forces, as shown in the equation.
+![alt text](http://url/to/img.png)
+
+This equation is simple, non-linear and one dimensional. It assumes that a body in free-fall is subjected to a gravitational acceleration of 10m/s2.
+
+The initial conditions that have bee arbitrarily set are at t=0 and t=10, the displacement would be zero, essentially meaning that the ball will drop back after 10 seconds. 
