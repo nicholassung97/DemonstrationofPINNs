@@ -34,10 +34,10 @@ The aim is to infer the value of the entire displacement solution between t=0 an
 
 The notesbooks can be accessed here.
 
-Normal Neural Network
+**Normal Neural Network
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/1D_Kinematics_without_physics_equation_final.ipynb)
 
-Physics Informed Neural Network
+**Physics Informed Neural Network
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/1D_Kinematics_with_physics_equation_final.ipynb)
 
 # Results
