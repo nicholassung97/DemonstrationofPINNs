@@ -7,3 +7,7 @@ Benefits:
 1. Enhances the information content of the available data by embedding information
 2. Ensures that prediction is physically possible
 3. Reduces the amount of data required for training
+
+In this repository, a simple kinematics problem is used to demonstrate the benefits of PINNs. 
+To begin, we start with a one dimensional example of a ball being thrown upwards.
+
