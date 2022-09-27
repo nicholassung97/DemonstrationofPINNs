@@ -23,7 +23,8 @@ The initial conditions that have bee arbitrarily set are at t=0 and t=10, the di
 
 Based on knowledge of the partial differential equation the system has to adhere to, and the initial conditions of the system, the loss function can be defined to be:
 
-<img src="https://github.com/nicholassung97/DemonstrationofPINNs/blob/main/image/Screenshot%202022-09-22%20at%202.20.15%20PM.png" width="500" height="300" />
+
+<img src="https://user-images.githubusercontent.com/84385004/192480728-24bffd45-2ae9-4f13-985b-51edd2ab07d5.png" width="500" height="300" />
 
 Given an input (denoted t), the physics-based machine learning model can be used to predict an output(denotedas 𝑥̂), as shown in the figure below.To train the model, the loss function includes the 2 datasets at the initial condition and 50 random unlabelled training data (between t=0 and t=10) that will serve as collocation points to run through the PDE. 
 
